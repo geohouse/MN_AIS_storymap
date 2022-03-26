@@ -8,8 +8,9 @@ var config_v2 = {
     Mine
     */
 
-    accessToken: 'pk.eyJ1IjoiZ2VvaG91c2UiLCJhIjoiY2wxNWh1NjM4MDE3dzNwb2RtOTNhbjR5cSJ9.Q2t41-ACFm5YkkQU_Ohl1w',
-    /*accessToken: 'pk.eyJ1IjoiZ2VvaG91c2UiLCJhIjoiY2wxMmR1b3FjMDBrZzNlbzB2NDY3cDBjbSJ9.kQ5PnFxiciMd_GTpnN8DYg',*/
+    // URL restricted to https://geohouse.github.io
+    // To run this map elsewhere, need to replace this with another MapBox token. To run locally, need a token with no URL restrictions.
+    accessToken: 'pk.eyJ1IjoiZ2VvaG91c2UiLCJhIjoiY2wxOGhidmw0NHM0YjNicGtqM2cwaTdjeCJ9.eDSDVjqprsIAwWRCtwe0MA',
     
     showMarkers: false,
     markerColor: '#3FB1CE',

@@ -217,7 +217,7 @@ var config_v2 = {
             title: 'Grass Carp - confimed locations between 2000 and 2010',
             image: './images/GrassCarp_MO_MDC.png',
             imageCredit: '<a href="https://mdc.mo.gov/your-property/improve-your-property/habitat-management/pond-stream-management/ponds-plant/grass"> Photo by Lance Merry, Missouri Department of Conservation</a>',
-            description: '',
+            description: 'Grass carp were first found in the Mississippi near La Crosse, Wisconsin and Winona, Minnesota',
             location: {
                 center: [-93.08659, 46.86022],
                 zoom: 6.23,
@@ -249,7 +249,7 @@ var config_v2 = {
             title: 'Grass Carp - confimed locations between 2010 and 2021',
             image: './images/GrassCarp_MO_MDC.png',
             imageCredit: '<a href="https://mdc.mo.gov/your-property/improve-your-property/habitat-management/pond-stream-management/ponds-plant/grass"> Photo by Lance Merry, Missouri Department of Conservation</a>',
-            description: '',
+            description: 'In recent years, Grass carp are still only confirmed in the Mississippi River, but the sighting locations are further north.',
             location: {
                 center: [-93.08659, 46.86022],
                 zoom: 6.23,
@@ -313,7 +313,7 @@ var config_v2 = {
             title: 'Zebra mussels - confirmed locations before 2005',
             image: './images/sdpb_zebraMussels.jpg',
             imageCredit: '<a href="https://listen.sdpb.org/news/2019-11-01/new-zebra-mussel-infestations-found-in-south-dakota-lakes"> Photo by US Fish and Wildlife Service</a>',
-            description: '',
+            description: 'Before 2005, Zebra mussels were largely found in the Mississippi River and tributaries and Lake Superior.',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -345,7 +345,7 @@ var config_v2 = {
             title: 'Zebra mussels - confirmed locations between 2005 and 2009',
             image: './images/sdpb_zebraMussels.jpg',
             imageCredit: '<a href="https://listen.sdpb.org/news/2019-11-01/new-zebra-mussel-infestations-found-in-south-dakota-lakes"> Photo by US Fish and Wildlife Service</a>',
-            description: '',
+            description: 'Between 2005 and 2009, Zebra mussels were found beyond these locations and in smaller water bodies, mostly in central Minnesota.',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -371,13 +371,13 @@ var config_v2 = {
             ]
         },
         {
-            id: 'zebra-mussels-recent-id',
+            id: 'zebra-mussels-mid-recent-id',
             alignment: 'left',
             hidden: false,
             title: 'Zebra mussels - confirmed locations between 2010 and 2014',
             image: './images/sdpb_zebraMussels.jpg',
             imageCredit: '<a href="https://listen.sdpb.org/news/2019-11-01/new-zebra-mussel-infestations-found-in-south-dakota-lakes"> Photo by US Fish and Wildlife Service</a>',
-            description: '',
+            description: 'There was continued spread mainly in central Minnesota with sightings being geographically clustered between 2010 and 2014.',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -397,6 +397,38 @@ var config_v2 = {
             onChapterExit: [
                 {
                     layer: 'ZebraMussels_2010-2014',
+                    opacity: 0,
+                    duration: 300
+                }
+            ]
+        },
+        {
+            id: 'zebra-mussels-recent-id',
+            alignment: 'left',
+            hidden: false,
+            title: 'Zebra mussels - confirmed locations between 2015 and 2021',
+            image: './images/sdpb_zebraMussels.jpg',
+            imageCredit: '<a href="https://listen.sdpb.org/news/2019-11-01/new-zebra-mussel-infestations-found-in-south-dakota-lakes"> Photo by US Fish and Wildlife Service</a>',
+            description: 'Between 2015 and 2021, Zebra mussels were confirmed in many additional water bodies in central Minnesota and into southwestern Minnesota.',
+            location: {
+                center: [-96.07575, 46.46848],
+                zoom: 6.01,
+                pitch:0,
+                bearing:1
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'ZebraMussels_2015-2021',
+                    opacity: 1,
+                    duration: 300
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'ZebraMussels_2015-2021',
                     opacity: 0,
                     duration: 300
                 }
@@ -438,7 +470,7 @@ var config_v2 = {
             id: 'rusty-crayfish-early-id',
             alignment: 'right',
             hidden: false,
-            title: 'Rusty crayfish - confirmed locations 1990-1999',
+            title: 'Rusty crayfish - confirmed locations between 1990 and 1999',
             image: './images/UMN_RustyCrayfish.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/rusty-crayfish"> Photo by Bob McNamara</a>',
             description: 'Rusty crayfish were first observed in northeastern Minnesota near Ely',
@@ -470,7 +502,7 @@ var config_v2 = {
             id: 'rusty-crayfish-mid-id',
             alignment: 'right',
             hidden: false,
-            title: 'Rusty crayfish - confirmed locations 2000-2009',
+            title: 'Rusty crayfish - confirmed locations between 2000 and 2009',
             image: './images/UMN_RustyCrayfish.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/rusty-crayfish"> Photo by Bob McNamara</a>',
             description: 'They then were observed in a wider area around Ely, including near the Boundary Waters Canoe Area Wilderness.',
@@ -502,7 +534,7 @@ var config_v2 = {
             id: 'rusty-crayfish-late-id',
             alignment: 'right',
             hidden: false,
-            title: 'Rusty crayfish - confirmed locations 2010-2021',
+            title: 'Rusty crayfish - confirmed locations between 2010 and 2021',
             image: './images/UMN_RustyCrayfish.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/rusty-crayfish"> Photo by Bob McNamara</a>',
             description: 'In the decade since 2010, they have spread south and west and are now found in geographically distant areas of Minnesota.',
@@ -566,10 +598,10 @@ var config_v2 = {
             id: 'curlyleaf-pondweed-before70s-id',
             alignment: 'left',
             hidden: false,
-            title: 'Curlyleaf pondweed',
+            title: 'Curlyleaf pondweed - confirmed locations before 1970',
             image: './images/UMN_curlyleafPondweed.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/curly-leaf-pondweed"> Photo from University of Minnesota Extension</a>',
-            description: '',
+            description: 'Curlyleaf pondweed was found in multiple scattered locations mainly in central Minnesota before 1970.',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -598,10 +630,10 @@ var config_v2 = {
             id: 'curlyleaf-pondweed-70s-id',
             alignment: 'left',
             hidden: false,
-            title: 'Curlyleaf pondweed',
+            title: 'Curlyleaf pondweed - confirmed locations between 1970 and 1979',
             image: './images/UMN_curlyleafPondweed.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/curly-leaf-pondweed"> Photo from University of Minnesota Extension</a>',
-            description: '',
+            description: 'During the 1970s, Curlyleaf pondweed was mostly confirmed in several areas near the I-94 corridor northwest of the Twin Cities and near Grand Rapids in the north central part of the state.',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -630,10 +662,10 @@ var config_v2 = {
             id: 'curlyleaf-pondweed-80s-id',
             alignment: 'left',
             hidden: false,
-            title: 'Curlyleaf pondweed',
+            title: 'Curlyleaf pondweed - confirmed locations between 1980 and 1989',
             image: './images/UMN_curlyleafPondweed.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/curly-leaf-pondweed"> Photo from University of Minnesota Extension</a>',
-            description: '',
+            description: 'In the 1980s, the majority of the confirmed Curlyleaf pondweed occurrences were around the Twin Cities, near the I-94 corridor northwest to St. Cloud, and near the I-35 corridor north to Moose Lake.',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -662,10 +694,10 @@ var config_v2 = {
             id: 'curlyleaf-pondweed-90s-id',
             alignment: 'left',
             hidden: false,
-            title: 'Curlyleaf pondweed',
+            title: 'Curlyleaf pondweed - confirmed locations between 1990 and 1999',
             image: './images/UMN_curlyleafPondweed.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/curly-leaf-pondweed"> Photo from University of Minnesota Extension</a>',
-            description: '',
+            description: 'By the 1990s, Curlyleaf pondweed was found in far more locations, mainly in the central and south central parts of the state.',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -694,10 +726,10 @@ var config_v2 = {
             id: 'curlyleaf-pondweed-00s-id',
             alignment: 'left',
             hidden: false,
-            title: 'Curlyleaf pondweed',
+            title: 'Curlyleaf pondweed - confirmed locations between 2000 and 2009',
             image: './images/UMN_curlyleafPondweed.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/curly-leaf-pondweed"> Photo from University of Minnesota Extension</a>',
-            description: '',
+            description: 'Many fewer confirmed occurrences of Curlyleaf pondweed were recorded from 2000 to 2009 compared to the previous decade.',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -726,10 +758,10 @@ var config_v2 = {
             id: 'curlyleaf-pondweed-10s-id',
             alignment: 'left',
             hidden: false,
-            title: 'Curlyleaf pondweed',
+            title: 'Curlyleaf pondweed - confirmed locations between 2010 and 2021',
             image: './images/UMN_curlyleafPondweed.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/curly-leaf-pondweed"> Photo from University of Minnesota Extension</a>',
-            description: '',
+            description: 'Between 2010 and 2021, it has been confirmed in far more locations compared to 2000-2009, which most occurrences geographically clustered around the Twin Cities, Fergus Falls to the northwest, and Winona to the southeast.',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -790,10 +822,10 @@ var config_v2 = {
             id: 'flowering-rush-early-id',
             alignment: 'right',
             hidden: false,
-            title: 'Flowering rush',
+            title: 'Flowering rush - confirmed locations before 2000',
             image: './images/UMN_floweringRush.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/flowering-rush"> Photo from University of Minnesota Extension</a>',
-            description: '',
+            description: 'Before 2000, Flowering rush had been found primarily near the Twin Cities, along the Cannon River in southeastern Minnesota, and near Detroit Lakes in the west central part of the state.',
             location: {
                 center: [-93.08659, 46.86022],
                 zoom: 6.23,
@@ -822,10 +854,10 @@ var config_v2 = {
             id: 'flowering-rush-mid-id',
             alignment: 'right',
             hidden: false,
-            title: 'Flowering rush',
+            title: 'Flowering rush - confirmed locations between 2000 and 2009',
             image: './images/UMN_floweringRush.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/flowering-rush"> Photo from University of Minnesota Extension</a>',
-            description: '',
+            description: 'From 2000 to 2009, there were additional confirmed flowering rush occurrences near those previous locations, as well as near Saulk City along I-94 in central Minnesota and near Grand Rapids in the northeastern part of the state.',
             location: {
                 center: [-93.08659, 46.86022],
                 zoom: 6.23,
@@ -854,10 +886,10 @@ var config_v2 = {
             id: 'flowering-rush-late-id',
             alignment: 'right',
             hidden: false,
-            title: 'Flowering rush',
+            title: 'Flowering rush - confirmed locations between 2010 and 2021',
             image: './images/UMN_floweringRush.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/flowering-rush"> Photo from University of Minnesota Extension</a>',
-            description: '',
+            description: 'Between 2010 and 2021, there were additional confirmed occurrences near these same locations and several new sightings along the Mississippi River in the southeastern part of the state.',
             location: {
                 center: [-93.08659, 46.86022],
                 zoom: 6.23,
@@ -918,10 +950,10 @@ var config_v2 = {
             id: 'purple-loosestrife-early-id',
             alignment: 'left',
             hidden: false,
-            title: 'Purple loosestrife',
+            title: 'Purple loosestrife - confirmed locations between 1985 and 1995',
             image: './images/PurpleLoosestrife_MO_MDC.png',
             imageCredit: '<a href="https://mdc.mo.gov/trees-plants/invasive-plants/purple-loosestrife-control"> Photo from Missouri Department of Conservation</a>',
-            description: '',
+            description: 'The majority of the confirmed occurrences of Purple loosestrife in the state were in two ten-year periods: from 1985-1995, and from 2011-2021. From 1985-1995, Purple loosestrife was confirmed in areas across the state, but most of the occurrences were in the Twin Cities area.',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -950,10 +982,10 @@ var config_v2 = {
             id: 'purple-loosestrife-late-id',
             alignment: 'left',
             hidden: false,
-            title: 'Purple loosestrife',
+            title: 'Purple loosestrife - confirmed locations between 2011 and 2021',
             image: './images/PurpleLoosestrife_MO_MDC.png',
             imageCredit: '<a href="https://mdc.mo.gov/trees-plants/invasive-plants/purple-loosestrife-control"> Photo from Missouri Department of Conservation</a>',
-            description: '',
+            description: 'From 2011 to 2021, there were fewer confirmed Purple loosestrife locations compared to 1985-1995 and in fewer geographic areas of the state, likely due to effective biological control. However, most of the occurrences were still in the Twin Cities area, with many of the others along the north shore of Lake Superior and in the Grand Rapids area in the northern part of the state. ',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,

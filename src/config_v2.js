@@ -547,14 +547,206 @@ var config_v2 = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'RustyCrayfish_all',
+                    layer: 'CurlyleafPondweed_all',
                     opacity: 1,
                     duration: 300
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'RustyCrayfish_all',
+                    layer: 'CurlyleafPondweed_all',
+                    opacity: 0,
+                    duration: 300
+                }
+            ]
+        },
+        {
+            id: 'curlyleaf-pondweed-before70s-id',
+            alignment: 'left',
+            hidden: false,
+            title: 'Curlyleaf pondweed',
+            image: './images/UMN_curlyleafPondweed.jpg',
+            imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/curly-leaf-pondweed"> Photo from University of Minnesota Extension</a>',
+            description: '',
+            location: {
+                center: [-91.079,46.422],
+                zoom: 6.0,
+                pitch:0,
+                bearing:0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'CurlyleafPondweed_before_1970',
+                    opacity: 1,
+                    duration: 300
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'CurlyleafPondweed_before_1970',
+                    opacity: 0,
+                    duration: 300
+                }
+            ]
+        },
+        {
+            id: 'curlyleaf-pondweed-70s-id',
+            alignment: 'left',
+            hidden: false,
+            title: 'Curlyleaf pondweed',
+            image: './images/UMN_curlyleafPondweed.jpg',
+            imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/curly-leaf-pondweed"> Photo from University of Minnesota Extension</a>',
+            description: '',
+            location: {
+                center: [-91.079,46.422],
+                zoom: 6.0,
+                pitch:0,
+                bearing:0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'CurlyleafPondweed_1970-1979',
+                    opacity: 1,
+                    duration: 300
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'CurlyleafPondweed_1970-1979',
+                    opacity: 0,
+                    duration: 300
+                }
+            ]
+        },
+        {
+            id: 'curlyleaf-pondweed-80s-id',
+            alignment: 'left',
+            hidden: false,
+            title: 'Curlyleaf pondweed',
+            image: './images/UMN_curlyleafPondweed.jpg',
+            imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/curly-leaf-pondweed"> Photo from University of Minnesota Extension</a>',
+            description: '',
+            location: {
+                center: [-91.079,46.422],
+                zoom: 6.0,
+                pitch:0,
+                bearing:0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'CurlyleafPondweed_1980-1989',
+                    opacity: 1,
+                    duration: 300
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'CurlyleafPondweed_1980-1989',
+                    opacity: 0,
+                    duration: 300
+                }
+            ]
+        },
+        {
+            id: 'curlyleaf-pondweed-90s-id',
+            alignment: 'left',
+            hidden: false,
+            title: 'Curlyleaf pondweed',
+            image: './images/UMN_curlyleafPondweed.jpg',
+            imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/curly-leaf-pondweed"> Photo from University of Minnesota Extension</a>',
+            description: '',
+            location: {
+                center: [-91.079,46.422],
+                zoom: 6.0,
+                pitch:0,
+                bearing:0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'CurlyleafPondweed_1990-1999',
+                    opacity: 1,
+                    duration: 300
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'CurlyleafPondweed_1990-1999',
+                    opacity: 0,
+                    duration: 300
+                }
+            ]
+        },
+        {
+            id: 'curlyleaf-pondweed-00s-id',
+            alignment: 'left',
+            hidden: false,
+            title: 'Curlyleaf pondweed',
+            image: './images/UMN_curlyleafPondweed.jpg',
+            imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/curly-leaf-pondweed"> Photo from University of Minnesota Extension</a>',
+            description: '',
+            location: {
+                center: [-91.079,46.422],
+                zoom: 6.0,
+                pitch:0,
+                bearing:0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'CurlyleafPondweed_2000-2009',
+                    opacity: 1,
+                    duration: 300
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'CurlyleafPondweed_2000-2009',
+                    opacity: 0,
+                    duration: 300
+                }
+            ]
+        },
+        {
+            id: 'curlyleaf-pondweed-10s-id',
+            alignment: 'left',
+            hidden: false,
+            title: 'Curlyleaf pondweed',
+            image: './images/UMN_curlyleafPondweed.jpg',
+            imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/curly-leaf-pondweed"> Photo from University of Minnesota Extension</a>',
+            description: '',
+            location: {
+                center: [-91.079,46.422],
+                zoom: 6.0,
+                pitch:0,
+                bearing:0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'CurlyleafPondweed_2010-2021',
+                    opacity: 1,
+                    duration: 300
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'CurlyleafPondweed_2010-2021',
                     opacity: 0,
                     duration: 300
                 }

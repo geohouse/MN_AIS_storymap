@@ -753,67 +753,228 @@ var config_v2 = {
             ]
         },
         {
-            id: 'second-identifier',
-            alignment: 'right',
-            hidden: false,
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-77.020636, 38.886900],
-                zoom: 8.5,
-                pitch: 60,
-                bearing: -43.2,
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'third-identifier',
+            id: 'flowering-rush-all-id',
             alignment: 'left',
             hidden: false,
-            title: 'Third Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            title: 'Flowering rush',
+            image: './images/UMN_floweringRush.jpg',
+            imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/flowering-rush"> Photo from University of Minnesota Extension</a>',
+            description: 'Flowering rush was first found in North America around 1900, and was likely spread to the Great Lakes through live fragments being transported in ship ballast water. It has been found in Minnesota since 1968, and can be difficult to control because it can successfully live submerged by up to ten feet of water and can spread both through root fragments as well as fertile buds that occur with the flowers. It is a strong grower and can outcompete native plant species like bulrushes to reduce habitat diversity for native animal species and make accessing open water from the shore of lakes more difficult. <br><a href="https://www.dnr.state.mn.us/invasives/terrestrialplants/herbaceous/floweringrush.html">Learn more</a>',
             location: {
-                center: [6.15116, 46.20595],
-                zoom: 12.52,
-                pitch: 8.01,
-                bearing: 0.00
+                center: [-91.079,46.422],
+                zoom: 6.0,
+                pitch:0,
+                bearing:0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'FloweringRush_all',
+                    opacity: 1,
+                    duration: 300
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'FloweringRush_all',
+                    opacity: 0,
+                    duration: 300
+                }
+            ]
         },
         {
-            id: 'fourth-chapter',
-            alignment: 'fully',
+            id: 'flowering-rush-early-id',
+            alignment: 'left',
             hidden: false,
-            title: 'Third Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            title: 'Flowering rush',
+            image: './images/UMN_floweringRush.jpg',
+            imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/flowering-rush"> Photo from University of Minnesota Extension</a>',
+            description: '',
             location: {
-                center: [-58.54195, -34.71600],
-                zoom: 4,
-                pitch: 0,
-                bearing: 0
+                center: [-91.079,46.422],
+                zoom: 6.0,
+                pitch:0,
+                bearing:0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        }
+            onChapterEnter: [
+                {
+                    layer: 'FloweringRush_before_2000',
+                    opacity: 1,
+                    duration: 300
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'FloweringRush_before_2000',
+                    opacity: 0,
+                    duration: 300
+                }
+            ]
+        },
+        {
+            id: 'flowering-rush-mid-id',
+            alignment: 'left',
+            hidden: false,
+            title: 'Flowering rush',
+            image: './images/UMN_floweringRush.jpg',
+            imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/flowering-rush"> Photo from University of Minnesota Extension</a>',
+            description: '',
+            location: {
+                center: [-91.079,46.422],
+                zoom: 6.0,
+                pitch:0,
+                bearing:0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'FloweringRush_2000-2009',
+                    opacity: 1,
+                    duration: 300
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'FloweringRush_2000-2009',
+                    opacity: 0,
+                    duration: 300
+                }
+            ]
+        },
+        {
+            id: 'flowering-rush-late-id',
+            alignment: 'left',
+            hidden: false,
+            title: 'Flowering rush',
+            image: './images/UMN_floweringRush.jpg',
+            imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/flowering-rush"> Photo from University of Minnesota Extension</a>',
+            description: '',
+            location: {
+                center: [-91.079,46.422],
+                zoom: 6.0,
+                pitch:0,
+                bearing:0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'FloweringRush_2010-2021',
+                    opacity: 1,
+                    duration: 300
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'FloweringRush_2010-2021',
+                    opacity: 0,
+                    duration: 300
+                }
+            ]
+        },
+        {
+            id: 'purple-loosestrife-all-id',
+            alignment: 'left',
+            hidden: false,
+            title: 'Purple loosestrife',
+            image: './images/PurpleLoosestrife_MO_MDC.png',
+            imageCredit: '<a href="https://mdc.mo.gov/trees-plants/invasive-plants/purple-loosestrife-control"> Photo from Missouri Department of Conservation</a>',
+            description: 'This wetland plant has conspicuous pink flower spikes in spring and is commonly found in roadside ditches and margins of waterbodies. It was used as an ornamental plant before it was known to be invasive and spreads effectively through millions of very small seeds that can be produced by each plant annually. It typically forms dense stands with large root mats. This growth form makes it difficult for people to access the edge of lakes and ponds where it is growing, reduces the suitible habitat for native animals, displaces native plants, and its roots can alter water flow patterns in the wetlands where it is found. Purple loosestrife can be effectively controlled using biological methods however, with the release of specific species of beetles that feed exclusively on the plants and that can become established in Minnesota. <br><a href="https://www.dnr.state.mn.us/invasives/aquaticplants/purpleloosestrife/index.html">Learn more</a>',
+            location: {
+                center: [-91.079,46.422],
+                zoom: 6.0,
+                pitch:0,
+                bearing:0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'PurpleLoosestrife_all',
+                    opacity: 1,
+                    duration: 300
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'PurpleLoosestrife_all',
+                    opacity: 0,
+                    duration: 300
+                }
+            ]
+        },
+        {
+            id: 'purple-loosestrife-early-id',
+            alignment: 'left',
+            hidden: false,
+            title: 'Purple loosestrife',
+            image: './images/PurpleLoosestrife_MO_MDC.png',
+            imageCredit: '<a href="https://mdc.mo.gov/trees-plants/invasive-plants/purple-loosestrife-control"> Photo from Missouri Department of Conservation</a>',
+            description: '',
+            location: {
+                center: [-91.079,46.422],
+                zoom: 6.0,
+                pitch:0,
+                bearing:0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'PurpleLoosestrife_1985-1995',
+                    opacity: 1,
+                    duration: 300
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'PurpleLoosestrife_1985-1995',
+                    opacity: 0,
+                    duration: 300
+                }
+            ]
+        },
+        {
+            id: 'purple-loosestrife-late-id',
+            alignment: 'left',
+            hidden: false,
+            title: 'Purple loosestrife',
+            image: './images/PurpleLoosestrife_MO_MDC.png',
+            imageCredit: '<a href="https://mdc.mo.gov/trees-plants/invasive-plants/purple-loosestrife-control"> Photo from Missouri Department of Conservation</a>',
+            description: '',
+            location: {
+                center: [-91.079,46.422],
+                zoom: 6.0,
+                pitch:0,
+                bearing:0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'PurpleLoosestrife_2011-2021',
+                    opacity: 1,
+                    duration: 300
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'PurpleLoosestrife_2011-2021',
+                    opacity: 0,
+                    duration: 300
+                }
+            ]
+        },
     ]
 };

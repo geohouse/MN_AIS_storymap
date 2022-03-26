@@ -185,7 +185,7 @@ var config_v2 = {
             title: 'Grass Carp',
             image: './images/GrassCarp_MO_MDC.png',
             imageCredit: '<a href="https://mdc.mo.gov/your-property/improve-your-property/habitat-management/pond-stream-management/ponds-plant/grass"> Photo by Lance Merry, Missouri Department of Conservation</a>',
-            description: 'This invasive carp species was first introduced in the U.S. in the 1960s to help reduce and maintain aquatic vegetation in lakes, but has since spread more widely likely through escaped individuals. Each fish can live to be about 20 years old, with the young eating aquatic invertebrates and the adults eating up to 2-3 times their weight in vegetation each day (hence the name Grass Carp). The aquatic and terrestrial plants eaten by the Grass Carp usually serve as a food source for birds and provide protection to young fish, so the carp can have especially large ecological effects in the shallow areas near lakeshores. <br> <a href="https://maisrc.umn.edu/invasive-carp">Learn more</a>',
+            description: 'This invasive carp species was first introduced in the U.S. in the 1960s to help reduce and maintain aquatic vegetation in lakes. However, it has since spread more widely, likely through escaped individuals. Each fish can live to be about 20 years old, with the young eating aquatic invertebrates and the adults eating up to 2-3 times their weight in vegetation each day (hence the name Grass Carp). The aquatic and terrestrial plants eaten by the Grass Carp usually serve as a food source for birds and provide protection to young fish, so the carp can have especially large ecological effects in the shallow littoral zones near lakeshores. <br> <a href="https://maisrc.umn.edu/invasive-carp">Learn more</a>',
             location: {
                 center: [-93.08659, 46.86022],
                 zoom: 6.23,
@@ -217,7 +217,7 @@ var config_v2 = {
             title: 'Grass Carp - confimed locations between 2000 and 2010',
             image: './images/GrassCarp_MO_MDC.png',
             imageCredit: '<a href="https://mdc.mo.gov/your-property/improve-your-property/habitat-management/pond-stream-management/ponds-plant/grass"> Photo by Lance Merry, Missouri Department of Conservation</a>',
-            description: 'Grass carp were first found in the Mississippi near La Crosse, Wisconsin and Winona, Minnesota',
+            description: 'Grass carp were first found in the Mississippi River near La Crosse, Wisconsin and Winona, Minnesota.',
             location: {
                 center: [-93.08659, 46.86022],
                 zoom: 6.23,
@@ -281,7 +281,7 @@ var config_v2 = {
             title: 'Zebra mussels',
             image: './images/sdpb_zebraMussels.jpg',
             imageCredit: '<a href="https://listen.sdpb.org/news/2019-11-01/new-zebra-mussel-infestations-found-in-south-dakota-lakes"> Photo by US Fish and Wildlife Service</a>',
-            description: 'These mussels became established in the Duluth Harbor in 1989 and as of late 2021, 539 water bodies in Minnesota are listed as either being infested with zebra mussels or are connected to another water body that is. The mussels get their name from the alternating light and dark stripes on their shells, and while each mussel is small (1/4" - 1 1/2"), they form extremely dense colonies that carpet lake bottoms and hard surfaces like clogging water inlets and attaching to boat surfaces. These colonies can overgrow and kill native mussels and filter far larger amounts of phytoplankton from the water column, leading to substantial negative effects on the lake foodwebs. Zebra mussels can spread in water transported between lakes, such as in boats, making proper boat cleaning and draining a key action to prevent their further spread. <br><a href="https://maisrc.umn.edu/zebra-mussels">Learn more</a>',
+            description: 'These mussels became established in the Duluth Harbor in 1989 and as of late 2021, 539 water bodies in Minnesota are listed as either being infested with zebra mussels or are connected to another water body that is. The mussels get their name from the alternating light and dark stripes on their shells, and while each mussel is small (1/4" - 1 1/2"), they form extremely dense colonies that carpet lake bottoms and affect hard surfaces, such as clogging water inlets and encrusting boat surfaces. These colonies can overgrow and kill native mussels and filter far larger amounts of phytoplankton from the water column, leading to substantial negative effects on the lake foodwebs. Zebra mussels can spread by water transported between lakes, such as in boats, making proper boat cleaning and draining a key action to prevent their further spread. <br><a href="https://maisrc.umn.edu/zebra-mussels">Learn more</a>',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -313,7 +313,7 @@ var config_v2 = {
             title: 'Zebra mussels - confirmed locations before 2005',
             image: './images/sdpb_zebraMussels.jpg',
             imageCredit: '<a href="https://listen.sdpb.org/news/2019-11-01/new-zebra-mussel-infestations-found-in-south-dakota-lakes"> Photo by US Fish and Wildlife Service</a>',
-            description: 'Before 2005, Zebra mussels were largely found in the Mississippi River and tributaries and Lake Superior.',
+            description: 'Before 2005, Zebra mussels were largely found in the Mississippi River, its tributaries, and Lake Superior.',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -409,7 +409,7 @@ var config_v2 = {
             title: 'Zebra mussels - confirmed locations between 2015 and 2021',
             image: './images/sdpb_zebraMussels.jpg',
             imageCredit: '<a href="https://listen.sdpb.org/news/2019-11-01/new-zebra-mussel-infestations-found-in-south-dakota-lakes"> Photo by US Fish and Wildlife Service</a>',
-            description: 'Between 2015 and 2021, Zebra mussels were confirmed in many additional water bodies in central Minnesota and into southwestern Minnesota.',
+            description: 'Between 2015 and 2021, Zebra mussels were confirmed in many additional water bodies in central Minnesota and into both southeastern and southwestern Minnesota.',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -441,7 +441,7 @@ var config_v2 = {
             title: 'Rusty crayfish',
             image: './images/UMN_RustyCrayfish.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/rusty-crayfish"> Photo by Bob McNamara</a>',
-            description: 'This crayfish species, which was first identified in Minnesota in the late 1990s is an example of a species that is native to part of the U.S. (the Ohio River basin) but causes ecological problems when introduced outside of that range. Rusty crayfish are problematic for native Minnesota crayfish species for two main reasons: 1) Rusty crayfish are more aggresive than the native Minnesota crayfish, causing those native crayfish populations to decline, and 2) Rusty crayfish also can breed with the other native crayfish species, which results in hybrid crayfish instead of distinct native species. They also can degrade stands of aquatic plants in lakes and compete with fish populations by eating fish eggs and fish prey. <br><a href="https://www.dnr.state.mn.us/invasives/aquaticanimals/rustycrayfish/index.html">Learn more</a>',
+            description: 'This crayfish species, which was first identified in Minnesota in the late 1990s, is an example of a species that is native to part of the U.S. (the Ohio River basin) but causes ecological problems when introduced outside of that range. Rusty crayfish are problematic for native Minnesota crayfish species for two main reasons: 1) Rusty crayfish are more aggresive than the native Minnesota crayfish, causing those native crayfish populations to decline, and 2) Rusty crayfish also can breed with native crayfish species, which results in hybrid crayfish instead of distinct native species. They also can degrade stands of aquatic plants in lakes and compete with fish populations by eating fish eggs and fish prey items. <br><a href="https://www.dnr.state.mn.us/invasives/aquaticanimals/rustycrayfish/index.html">Learn more</a>',
             location: {
                 center: [-94.20361, 47.66561],
                 zoom: 6.23,
@@ -473,7 +473,7 @@ var config_v2 = {
             title: 'Rusty crayfish - confirmed locations between 1990 and 1999',
             image: './images/UMN_RustyCrayfish.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/rusty-crayfish"> Photo by Bob McNamara</a>',
-            description: 'Rusty crayfish were first observed in northeastern Minnesota near Ely',
+            description: 'Between 1990 and 1999, Rusty crayfish were first observed in northeastern Minnesota near Ely.',
             location: {
                 center: [-94.20361, 47.66561],
                 zoom: 6.23,
@@ -505,7 +505,7 @@ var config_v2 = {
             title: 'Rusty crayfish - confirmed locations between 2000 and 2009',
             image: './images/UMN_RustyCrayfish.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/rusty-crayfish"> Photo by Bob McNamara</a>',
-            description: 'They then were observed in a wider area around Ely, including near the Boundary Waters Canoe Area Wilderness.',
+            description: 'From 2000 to 2009, they were confirmed in a wider area around Ely, including near the Boundary Waters Canoe Area Wilderness.',
             location: {
                 center: [-94.20361, 47.66561],
                 zoom: 6.23,
@@ -537,7 +537,7 @@ var config_v2 = {
             title: 'Rusty crayfish - confirmed locations between 2010 and 2021',
             image: './images/UMN_RustyCrayfish.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/rusty-crayfish"> Photo by Bob McNamara</a>',
-            description: 'In the decade since 2010, they have spread south and west and are now found in geographically distant areas of Minnesota.',
+            description: 'In the decade since 2010, they have spread south and west and are now found in geographically distant areas of Minnesota, primarily in the Grand Rapids/Bemidji area and the Twin Cities area.',
             location: {
                 center: [-94.20361, 47.66561],
                 zoom: 6.23,
@@ -569,7 +569,7 @@ var config_v2 = {
             title: 'Curlyleaf pondweed',
             image: './images/UMN_curlyleafPondweed.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/curly-leaf-pondweed"> Photo from University of Minnesota Extension</a>',
-            description: 'This invasive aquatic plant is distinguished by its curving, serrated leaf margins and often grows in extremely high densities. Plants can survive when submerged in up to 15 feet of water, and spread by producing buds called turions that can remain dormant and viable in lake sediments for at least two years. Curlyleaf pondweed stands can displace native plants that provide food and shelter for waterfowl and young fish, causing ecological shifts. High abundances of the pondweed can form mats on the surface of lakes and  limit swimming and boating opportunities. It is most commonly found in lakes used heavily for recreation and is primarily spread by people unknowingly moving its turions or other vegetative pieces from lake to lake. <br><a href="https://maisrc.umn.edu/curlyleaf-pondweed">Learn more</a>',
+            description: 'This invasive aquatic plant is distinguished by its curving, serrated leaf margins and often grows in extremely high densities. Plants can survive when submerged in up to 15 feet of water, and they spread by producing buds called turions that can remain dormant and viable in lake sediments for at least two years. Curlyleaf pondweed stands can displace native plants that provide food and shelter for waterfowl and young fish, causing ecological shifts. High abundances of the pondweed can also form mats on the surface of lakes and limit swimming and boating opportunities. It is most commonly found in lakes that are heavily used for recreation and is primarily spread by people unknowingly moving its turions or other vegetative pieces from lake to lake. <br><a href="https://maisrc.umn.edu/curlyleaf-pondweed">Learn more</a>',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -729,7 +729,7 @@ var config_v2 = {
             title: 'Curlyleaf pondweed - confirmed locations between 2000 and 2009',
             image: './images/UMN_curlyleafPondweed.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/curly-leaf-pondweed"> Photo from University of Minnesota Extension</a>',
-            description: 'Many fewer confirmed occurrences of Curlyleaf pondweed were recorded from 2000 to 2009 compared to the previous decade.',
+            description: 'Far fewer confirmed occurrences of Curlyleaf pondweed were recorded from 2000 to 2009 compared to the previous decade.',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -761,7 +761,7 @@ var config_v2 = {
             title: 'Curlyleaf pondweed - confirmed locations between 2010 and 2021',
             image: './images/UMN_curlyleafPondweed.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/curly-leaf-pondweed"> Photo from University of Minnesota Extension</a>',
-            description: 'Between 2010 and 2021, it has been confirmed in far more locations compared to 2000-2009, which most occurrences geographically clustered around the Twin Cities, Fergus Falls to the northwest, and Winona to the southeast.',
+            description: 'Between 2010 and 2021, Curlyleaf pondweed has been confirmed in far more locations compared to 2000-2009, with most occurrences geographically clustered around the Twin Cities, Fergus Falls to the northwest, and Winona to the southeast.',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -793,7 +793,7 @@ var config_v2 = {
             title: 'Flowering rush',
             image: './images/UMN_floweringRush.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/flowering-rush"> Photo from University of Minnesota Extension</a>',
-            description: 'Flowering rush was first found in North America around 1900, and was likely spread to the Great Lakes through live fragments being transported in ship ballast water. It has been found in Minnesota since 1968, and can be difficult to control because it can successfully live submerged by up to ten feet of water and can spread both through root fragments as well as fertile buds that occur with the flowers. It is a strong grower and can outcompete native plant species like bulrushes to reduce habitat diversity for native animal species and make accessing open water from the shore of lakes more difficult. <br><a href="https://www.dnr.state.mn.us/invasives/terrestrialplants/herbaceous/floweringrush.html">Learn more</a>',
+            description: 'Flowering rush was first found in North America around 1900, and was likely spread to the Great Lakes through live fragments being transported in ship ballast water. It has been found in Minnesota since 1968, and can be difficult to control because it can successfully live submerged in up to ten feet of water and can spread both through root fragments as well as fertile buds that occur with the flowers. It is a strong grower and can outcompete native plant species like bulrushes to reduce habitat diversity for native animal species and can also make accessing open water from lake shores more difficult. <br><a href="https://www.dnr.state.mn.us/invasives/terrestrialplants/herbaceous/floweringrush.html">Learn more</a>',
             location: {
                 center: [-93.08659, 46.86022],
                 zoom: 6.23,
@@ -825,7 +825,7 @@ var config_v2 = {
             title: 'Flowering rush - confirmed locations before 2000',
             image: './images/UMN_floweringRush.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/flowering-rush"> Photo from University of Minnesota Extension</a>',
-            description: 'Before 2000, Flowering rush had been found primarily near the Twin Cities, along the Cannon River in southeastern Minnesota, and near Detroit Lakes in the west central part of the state.',
+            description: 'Before 2000, Flowering rush had been found primarily near the Twin Cities, along the Cannon River in southern Minnesota, and near Detroit Lakes in the west central part of the state.',
             location: {
                 center: [-93.08659, 46.86022],
                 zoom: 6.23,
@@ -857,7 +857,7 @@ var config_v2 = {
             title: 'Flowering rush - confirmed locations between 2000 and 2009',
             image: './images/UMN_floweringRush.jpg',
             imageCredit: '<a href="https://extension.umn.edu/identify-invasive-species/flowering-rush"> Photo from University of Minnesota Extension</a>',
-            description: 'From 2000 to 2009, there were additional confirmed flowering rush occurrences near those previous locations, as well as near Saulk City along I-94 in central Minnesota and near Grand Rapids in the northeastern part of the state.',
+            description: 'From 2000 to 2009, there were additional confirmed flowering rush occurrences near those previous locations, as well as near Saulk City along I-94 in central Minnesota and near Grand Rapids in the north central part of the state.',
             location: {
                 center: [-93.08659, 46.86022],
                 zoom: 6.23,
@@ -921,7 +921,7 @@ var config_v2 = {
             title: 'Purple loosestrife',
             image: './images/PurpleLoosestrife_MO_MDC.png',
             imageCredit: '<a href="https://mdc.mo.gov/trees-plants/invasive-plants/purple-loosestrife-control"> Photo from Missouri Department of Conservation</a>',
-            description: 'This wetland plant has conspicuous pink flower spikes in spring and is commonly found in roadside ditches and margins of waterbodies. It was used as an ornamental plant before it was known to be invasive and spreads effectively through millions of very small seeds that can be produced by each plant annually. It typically forms dense stands with large root mats. This growth form makes it difficult for people to access the edge of lakes and ponds where it is growing, reduces the suitible habitat for native animals, displaces native plants, and its roots can alter water flow patterns in the wetlands where it is found. Purple loosestrife can be effectively controlled using biological methods however, with the release of specific species of beetles that feed exclusively on the plants and that can become established in Minnesota. <br><a href="https://www.dnr.state.mn.us/invasives/aquaticplants/purpleloosestrife/index.html">Learn more</a>',
+            description: 'This wetland plant has conspicuous pink flower spikes in spring and is commonly found in roadside ditches and margins of water bodies. It was used as an ornamental plant before it was known to be invasive and it spreads effectively by each plant producing millions of very small seeds annually. It typically forms dense stands with large root mats. This growth form makes it difficult for people to access the edge of lakes and ponds where it is growing, reduces the suitible habitat for native animals, displaces native plants, and its roots can alter water flow patterns in the wetlands where it is found. However, Purple loosestrife can be effectively controlled using biological methods that involve the release of specific species of beetles or weevils that feed exclusively on the Purple loosestrife and that can establish breeding populations in Minnesota.<br><a href="https://www.dnr.state.mn.us/invasives/aquaticplants/purpleloosestrife/index.html">Learn more</a>',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -953,7 +953,7 @@ var config_v2 = {
             title: 'Purple loosestrife - confirmed locations between 1985 and 1995',
             image: './images/PurpleLoosestrife_MO_MDC.png',
             imageCredit: '<a href="https://mdc.mo.gov/trees-plants/invasive-plants/purple-loosestrife-control"> Photo from Missouri Department of Conservation</a>',
-            description: 'The majority of the confirmed occurrences of Purple loosestrife in the state were in two ten-year periods: from 1985-1995, and from 2011-2021. From 1985-1995, Purple loosestrife was confirmed in areas across the state, but most of the occurrences were in the Twin Cities area.',
+            description: 'The majority of the confirmed occurrences of Purple loosestrife in the state were in two ten-year periods: from 1985-1995 and from 2011-2021. From 1985-1995, Purple loosestrife was confirmed in areas across the state, but most of the occurrences were in the Twin Cities area.',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,
@@ -985,7 +985,7 @@ var config_v2 = {
             title: 'Purple loosestrife - confirmed locations between 2011 and 2021',
             image: './images/PurpleLoosestrife_MO_MDC.png',
             imageCredit: '<a href="https://mdc.mo.gov/trees-plants/invasive-plants/purple-loosestrife-control"> Photo from Missouri Department of Conservation</a>',
-            description: 'From 2011 to 2021, there were fewer confirmed Purple loosestrife locations compared to 1985-1995 and in fewer geographic areas of the state, likely due to effective biological control. However, most of the occurrences were still in the Twin Cities area, with many of the others along the north shore of Lake Superior and in the Grand Rapids area in the northern part of the state. ',
+            description: 'From 2011 to 2021, there were fewer confirmed Purple loosestrife locations compared to 1985-1995 and in fewer geographic areas of the state, likely due to effective biological control. However, most of the occurrences were still in the Twin Cities area and many of the others were either along the north shore of Lake Superior or in the Grand Rapids area in the north central part of the state. ',
             location: {
                 center: [-96.07575, 46.46848],
                 zoom: 6.01,

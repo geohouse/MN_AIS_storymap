@@ -184,7 +184,7 @@ var config_v2 = {
             alignment: 'right',
             hidden: false,
             title: 'Grass Carp',
-            image: './images/GrassCarp_MO_MDC.png',
+            image: './images/GrassCarp_MO_MDC.jpg',
             imageCredit: '<a href="https://mdc.mo.gov/your-property/improve-your-property/habitat-management/pond-stream-management/ponds-plant/grass"> Photo by Lance Merry, Missouri Department of Conservation</a>',
             description: 'This invasive carp species was first introduced in the U.S. in the 1960s to help reduce and maintain aquatic vegetation in lakes. However, it has since spread more widely, likely through escaped individuals. Each fish can live to be about 20 years old, with the young eating aquatic invertebrates and the adults eating up to 2-3 times their weight in vegetation each day (hence the name Grass Carp). The aquatic and terrestrial plants eaten by the Grass Carp usually serve as a food source for birds and provide protection to young fish, so the carp can have especially large ecological effects in the shallow littoral zones near lakeshores. <br> <a href="https://maisrc.umn.edu/invasive-carp">Learn more</a>',
             location: {
@@ -216,7 +216,7 @@ var config_v2 = {
             alignment: 'right',
             hidden: false,
             title: 'Grass Carp - confimed locations between 2000 and 2010',
-            image: './images/GrassCarp_MO_MDC.png',
+            image: './images/GrassCarp_MO_MDC.jpg',
             imageCredit: '<a href="https://mdc.mo.gov/your-property/improve-your-property/habitat-management/pond-stream-management/ponds-plant/grass"> Photo by Lance Merry, Missouri Department of Conservation</a>',
             description: 'Grass carp were first found in the Mississippi River near La Crosse, Wisconsin and Winona, Minnesota.',
             location: {
@@ -248,7 +248,7 @@ var config_v2 = {
             alignment: 'right',
             hidden: false,
             title: 'Grass Carp - confimed locations between 2010 and 2021',
-            image: './images/GrassCarp_MO_MDC.png',
+            image: './images/GrassCarp_MO_MDC.jpg',
             imageCredit: '<a href="https://mdc.mo.gov/your-property/improve-your-property/habitat-management/pond-stream-management/ponds-plant/grass"> Photo by Lance Merry, Missouri Department of Conservation</a>',
             description: 'In recent years, Grass carp are still only confirmed in the Mississippi River, but the sighting locations are further north.',
             location: {
@@ -920,7 +920,7 @@ var config_v2 = {
             alignment: 'left',
             hidden: false,
             title: 'Purple loosestrife',
-            image: './images/PurpleLoosestrife_MO_MDC.png',
+            image: './images/PurpleLoosestrife_MO_MDC.jpg',
             imageCredit: '<a href="https://mdc.mo.gov/trees-plants/invasive-plants/purple-loosestrife-control"> Photo from Missouri Department of Conservation</a>',
             description: 'This wetland plant has conspicuous pink flower spikes in spring and is commonly found in roadside ditches and margins of water bodies. It was used as an ornamental plant before it was known to be invasive and it spreads effectively by each plant producing millions of very small seeds annually. It typically forms dense stands with large root mats. This growth form makes it difficult for people to access the edge of lakes and ponds where it is growing, reduces the suitible habitat for native animals, displaces native plants, and its roots can alter water flow patterns in the wetlands where it is found. However, Purple loosestrife can be effectively controlled using biological methods that involve the release of specific species of beetles or weevils that feed exclusively on the Purple loosestrife and that can establish breeding populations in Minnesota.<br><a href="https://www.dnr.state.mn.us/invasives/aquaticplants/purpleloosestrife/index.html">Learn more</a>',
             location: {
@@ -952,7 +952,7 @@ var config_v2 = {
             alignment: 'left',
             hidden: false,
             title: 'Purple loosestrife - confirmed locations between 1985 and 1995',
-            image: './images/PurpleLoosestrife_MO_MDC.png',
+            image: './images/PurpleLoosestrife_MO_MDC.jpg',
             imageCredit: '<a href="https://mdc.mo.gov/trees-plants/invasive-plants/purple-loosestrife-control"> Photo from Missouri Department of Conservation</a>',
             description: 'The majority of the confirmed occurrences of Purple loosestrife in the state were in two ten-year periods: from 1985-1995 and from 2011-2021. From 1985-1995, Purple loosestrife was confirmed in areas across the state, but most of the occurrences were in the Twin Cities area.',
             location: {
@@ -984,7 +984,7 @@ var config_v2 = {
             alignment: 'left',
             hidden: false,
             title: 'Purple loosestrife - confirmed locations between 2011 and 2021',
-            image: './images/PurpleLoosestrife_MO_MDC.png',
+            image: './images/PurpleLoosestrife_MO_MDC.jpg',
             imageCredit: '<a href="https://mdc.mo.gov/trees-plants/invasive-plants/purple-loosestrife-control"> Photo from Missouri Department of Conservation</a>',
             description: 'From 2011 to 2021, there were fewer confirmed Purple loosestrife locations compared to 1985-1995 and in fewer geographic areas of the state, likely due to effective biological control. However, most of the occurrences were still in the Twin Cities area and many of the others were either along the north shore of Lake Superior or in the Grand Rapids area in the north central part of the state. ',
             location: {

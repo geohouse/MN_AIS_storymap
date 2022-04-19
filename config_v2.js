@@ -26,7 +26,7 @@ var config_v2 = {
     subtitle: 'Tracing the spread of six species through time',
     // Hacky to get a 2 line byline using \n inside the text (otherwise only 1 byline entry allowed)
     byline: 'Made by Geoffrey House',
-    footer: 'Source: <a href="https://gisdata.mn.gov/dataset/env-invasive-aquatic-obs" target="_blank">Aquatic Invasive Species Observations" dataset from the Minnesota Department of Natural Resources, hosted on Minnesota Geospatial Commons</a> <br> <a href="https://maisrc.umn.edu/about-ais">Most information is from the MAISRC 2021-2022 Priority Species List</a> <br>Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'Source: <a href="https://gisdata.mn.gov/dataset/env-invasive-aquatic-obs" target="_blank">Aquatic Invasive Species Observations" dataset from the Minnesota Department of Natural Resources, hosted on Minnesota Geospatial Commons</a> <br> <a href="https://maisrc.umn.edu/about-ais">Most information is from the MAISRC 2021-2022 Priority Species List</a> <br>Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template. <br><a href="https://github.com/geohouse/MN_AIS_storymap">This site\'s source code</a>',
     
     /*
     location: {
